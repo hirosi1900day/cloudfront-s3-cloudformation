@@ -9,11 +9,11 @@ Mappings:
   EnvironmentMap:
     prod:
       ### [Change Acm Certificate Arn] CloudFront certificate needs to be created in the us-east-1 region.
-      AcmCertificateArn: arn:aws:acm:us-east-1:[xxxxxxxxxxxx]:certificate/[xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx]
+      AcmCertificateArn: arn:aws:acm:us-east-1:1672710406:certificate/a9e950c5-c574-442e-8de9-d44321b1c58a
     stg:
-      AcmCertificateArn: arn:aws:acm:us-east-1:[xxxxxxxxxxxx]:certificate/[xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx]
+      AcmCertificateArn: arn:aws:acm:us-east-1:1672710406:certificate/a9e950c5-c574-442e-8de9-d44321b1c58a
     dev:
-      AcmCertificateArn: arn:aws:acm:us-east-1:[xxxxxxxxxxxx]:certificate/[xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx]
+      AcmCertificateArn: arn:aws:acm:us-east-1:1672710406:certificate/a9e950c5-c574-442e-8de9-d44321b1c58a
 
 Parameters:
   SystemName:
